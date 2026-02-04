@@ -1,5 +1,3 @@
-package Lab10;
-
 public class Increment {
     public static void main(String[] args) {
         int number = 10;

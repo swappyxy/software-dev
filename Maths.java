@@ -38,5 +38,6 @@ public class Maths {
             default:
                 System.out.println("Invalid choice.");
         }
+        scanner.close();
     }
 }

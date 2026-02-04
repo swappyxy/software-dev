@@ -17,11 +17,6 @@ public class Change {
         double total = fiftyCent * 0.50 + twentyCent * 0.20 + tenCent * 0.10 + fiveCent * 0.05;
 
         System.out.println("\nTotal amount of money: " + total);
+        scanner.close();
     }
 }
-
-
-
-
- git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"

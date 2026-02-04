@@ -6,5 +6,6 @@ public class Age {
         int currentYear = 2026;
         int age = currentYear - birthYear;
         System.out.println("Age: " + age);
+        scanner.close();
     }
 }

@@ -1,5 +1,3 @@
-package Lab10;
-
 public class Decrement {
     public static void main(String[] args) {
         int number = 10;

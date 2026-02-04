@@ -10,5 +10,6 @@ public class Fullname1 {
 
         String fullName = firstName + " " + lastName;
         System.out.println(fullName);
+        scanner.close();
     }
 }

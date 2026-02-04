@@ -14,5 +14,7 @@ public class Swap {
         a = a.substring(b.length());
 
         System.out.println("Strings after swap: a = " + a + " and b = " + b);
+        scanner.close();
     }
+    
 }

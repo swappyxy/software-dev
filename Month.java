@@ -20,5 +20,6 @@ public class Month {
             default: monthName = "Month Unknown"; break;
         }
         System.out.println("+++ " + monthName + " +++");
+        scanner.close();
     }
 }
