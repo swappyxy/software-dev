@@ -1,0 +1,69 @@
+<svg width="360" height="96" viewBox="0 0 360 96" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <!-- Glass blur from background -->
+    <filter id="glass">
+      <feGaussianBlur in="BackgroundImage" stdDeviation="10" result="blur"/>
+      <feComposite in="blur" in2="SourceAlpha" operator="in"/>
+    </filter>
+
+    <!-- Glass gradient -->
+    <linearGradient id="glassGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.55"/>
+      <stop offset="45%" stop-color="#fff" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0.08"/>
+    </linearGradient>
+
+    <!-- Highlight -->
+    <linearGradient id="highlight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- === ЕДИНАЯ СТЕКЛЯННАЯ ФОРМА === -->
+  <path
+    d="
+      M24 56
+
+      Q120 56 150 56
+      Q170 56 180 32
+      Q190 56 210 56
+      Q240 56 336 56
+
+      Q352 56 352 72
+      Q352 88 336 88
+      H24
+      Q8 88 8 72
+      Q8 56 24 56
+      Z"
+    fill="url(#glassGrad)"
+    stroke="white"
+    stroke-opacity="0.25"
+    filter="url(#glass)"
+  />
+
+  <!-- Верхний блик -->
+  <path
+    d="
+      M40 60
+      Q180 58 320 60
+      Q300 62 180 64
+      Q60 62 40 60
+      Z"
+    fill="url(#highlight)"
+    opacity="0.35"
+  />
+
+  <!-- HOME ICON -->
+  <path
+    d="M168 42V54H192V42M162 40L180 26L198 40"
+    fill="none"
+    stroke="white"
+    stroke-width="2.6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    opacity="0.95"
+  />
+
+</svg>

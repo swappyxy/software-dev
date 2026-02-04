@@ -1,4 +1,3 @@
-package Lab10;
 import java.util.Scanner;
 public class Compound {
     public static void main(String[] args) {

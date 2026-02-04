@@ -3,7 +3,7 @@ public class whileloop {
         int i = 1;
         while (i <= 10) {
             System.out.println(i + ". line of text");
-            i++;
+            i++; 
         }
     }
 }
